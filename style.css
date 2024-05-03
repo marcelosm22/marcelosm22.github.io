@@ -25,8 +25,12 @@ body {
 /* CSS DO HEADER */
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 8888;
     padding: 3px 4%;
-    margin: 0;
     border-bottom: 2px solid rgb(0, 0, 0);
     box-shadow: 0 0 30px 4px #000000, 0 0 5px; 
     background-color: #080f15;
@@ -147,7 +151,7 @@ section {
 
 section.topo {
     padding: 40px 4%;
-    margin-top: 5vh;
+    margin-top: 15vh;
     background-color: #080f15;
 
 }
@@ -721,6 +725,10 @@ footer .line-footer p svg{
     .menu-mobile.abrir-menu {
         width: 30%;
     }
+}
+
+section, div.contato {
+    visibility: hidden;
 }
 
     

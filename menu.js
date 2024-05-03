@@ -24,3 +24,17 @@ function funcaoAlerta() {
     alert("Email enviado com sucesso!");
   }
 }
+
+ /****************************************************************************/
+
+ window.sr = ScrollReveal({ reset: true });
+
+ sr.reveal('section', {
+  duration: 2000,
+  distance: '60px'
+ })
+
+ sr.reveal('div.contato', {
+  duration: 2000,
+  distance: '60px'
+ })
