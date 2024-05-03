@@ -259,7 +259,7 @@ section.projetos {
 
 section.projetos .flex2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 60px;
 }
 
